@@ -266,3 +266,5 @@ module ScottBarron                   #:nodoc:
     end
   end
 end
+
+ActiveRecord::Base.class_eval { ScottBarron::Acts::StateMachine }

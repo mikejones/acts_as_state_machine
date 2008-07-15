@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.description = "This act gives an Active Record model the ability to act as a finite state machine (FSM)."
   s.has_rdoc = false
   s.authors = ["Not me"]
-  s.files = ["CHANGELOG", "init.rb", "lib/acts_as_state_machine.rb", "MIT-LICENSE", "Rakefile", "README", "TODO", "test/acts_as_state_machine_test.rb", "test/database.yml", "test/fixtures", "test/fixtures/conversation.rb","test/fixtures/conversations.yml", "test/fixtures/person.rb", "test/schema.rb", "test/test_helper.rb"]
+  s.files = ["CHANGELOG", "lib/acts_as_state_machine.rb", "MIT-LICENSE", "Rakefile", "README", "TODO", "test/acts_as_state_machine_test.rb", "test/database.yml", "test/fixtures", "test/fixtures/conversation.rb","test/fixtures/conversations.yml", "test/fixtures/person.rb", "test/schema.rb", "test/test_helper.rb"]
   s.test_files = ["test/acts_as_state_machine_test.rb", "test/database.yml", "test/fixtures", "test/fixtures/conversation.rb","test/fixtures/conversations.yml", "test/fixtures/person.rb", "test/schema.rb", "test/test_helper.rb"]
   # s.rdoc_options = ["--main", "README.txt"]
   # s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
